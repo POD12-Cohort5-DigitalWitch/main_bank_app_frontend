@@ -7,7 +7,7 @@ on:
       - main
   # pull_request:
   #   branches:
-  #     - cicd
+  #     - cicd #
 
 jobs:
   Continues-Integration_build_and_push:
