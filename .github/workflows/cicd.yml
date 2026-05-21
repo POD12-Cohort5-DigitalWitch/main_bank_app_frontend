@@ -109,6 +109,16 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
+
+      - name: Free disk space
+        run: |
+           docker system prune -af || true
+           sudo rm -rf /opt/hostedtoolcache || true
+           sudo rm -rf /usr/share/dotnet || true
+           sudo rm -rf /usr/local/lib/android || true
+           df -h
+
+
       - name: Build container image
         run: docker build -t bank-app-frontend:latest .
 
