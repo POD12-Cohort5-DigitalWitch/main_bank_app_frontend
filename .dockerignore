@@ -1,1 +1,21 @@
 /deployment
+node_modules
+# .git
+# .github
+# npm-debug.log
+# Dockerfile
+# README.md
+# build
+# coverage
+
+
+.git
+.github
+node_modules
+build
+dist
+coverage
+npm-debug.log
+yarn-error.log
+.DS_Store
+*.log
