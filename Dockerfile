@@ -24,7 +24,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm ci --no-audit --no-fund && npm cache clean --force
+RUN npm install --no-audit --no-fund && npm cache clean --force
 
 COPY . .
 
