@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 import imgOlatoro from "../images/Team/Engr Olatoro Laura Essien.jpeg";
-import imgRuth from "../images/Team/Engr Ruth Otinomo Braimoh.jpeg";
+import imgRuth from "../images/Team/Engr Ruth Otinomo Braimoh.jpg";
 import imgNoble from "../images/Team/Engr Noble-Gold.jpeg";
 import imgAkabuogu from "../images/Team/Engr Akabuogu Paschal Chukwuka.jpeg";
 import imgStanley from "../images/Team/Engr Stanley Oluebube.jpeg";
@@ -12,7 +12,7 @@ import imgKalu from "../images/Team/Engr Kalu Emeka.jpeg";
 import imgAluma from "../images/Team/Enge Aluma Ogbonnaya Sunday.jpeg";
 import imgVictory from "../images/Team/Engr Victory Umashichi Ohia.jpeg";
 import imgUzordi from "../images/Team/Engr Uzordi Gideon Osinachi.jpeg";
-import imgEno from "../images/Team/Engr Eno Edet John.jpeg";
+import imgEno from "../images/Team/Engr Eno Edet John.jpg";
 import imgOgbonna from "../images/Team/Engr Ogbonna Rita Tobechukwu.jpeg";
 import imgCelestina from "../images/Team/Engr Celestina Zubairu.jpeg";
 
